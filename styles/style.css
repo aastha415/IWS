@@ -1,0 +1,219 @@
+body {
+  background-image: url("../images/background.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 1500px;
+  height: 932px;
+
+  overflow: hidden;
+}
+
+.menu_button {
+  position: absolute;
+  top: 60px;
+  left: 80px;
+}
+
+.logo {
+  position: absolute;
+  top: 48px;
+  left: 670px;
+}
+
+.title {
+  width: 315px;
+  height: 43px;
+  font-family: Helvetica;
+  font-size: 36px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.center_title {
+  position: absolute;
+  top: 260px;
+  left: 220px;
+
+  font-family: Helvetica;
+  font-size: 70px;
+  font-weight: bold;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.center_search_icon {
+  position: absolute;
+  top: 225px;
+  right: -165px;
+  z-index: 1;
+}
+
+#search_icon {
+  border-radius: 50%;
+}
+
+.inputs_view {
+  position: absolute;
+  top: -110px;
+  right: -1650px;
+}
+
+.x {
+  position: absolute;
+  top: 150px;
+  right: 700px;
+}
+
+.input_field {
+  position: absolute;
+  top: 255px;
+  right: 1100px;
+
+  font-family: Helvetica;
+  font-size: 20px;
+  line-height: 13px;
+  text-align: right;
+
+  padding: 35px;
+}
+
+.input_field > pre {
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 20px;
+  color: #5d5d5d;
+}
+
+.input_field > pre > input[type="text"] {
+  border-style: solid;
+  border-width: 3px;
+  border-color: #5d5d5d;
+
+  font-family: Helvetica;
+  font-size: 18px;
+
+  background-color: #ffffff;
+  width: 250px;
+  height: 30px;
+}
+
+#submit {
+  width: 340px;
+  height: 60px;
+
+  font-family: Helvetica;
+  font-weight: lighter;
+  font-size: 30px;
+  color: #ffffff;
+
+  letter-spacing: 2px;
+
+  border-color: rgba(255, 255, 255, 0);
+  border-radius: 10px;
+  background-color: rgba(55, 132, 196, 0.85);
+}
+
+.about {
+  position: absolute;
+  top: 37px;
+  left: 200px;
+
+  font-family: Helvetica;
+  font-size: 23px;
+  font-weight: bold;
+  letter-spacing: normal;
+  color: #ffffff;
+
+  text-align: center;
+  padding: 25pt;
+}
+
+.about:hover {
+  background-color: #3C7FB5;
+}
+
+.forum {
+  position: absolute;
+  top: 37px;
+  left: 350px;
+
+  font-family: Helvetica;
+  font-size: 23px;
+  font-weight: bold;
+  letter-spacing: normal;
+  color: #ffffff;
+
+  text-align: center;
+  padding: 25pt;
+}
+
+.forum:hover {
+  background-color: #3C7FB5;
+}
+
+.contact {
+  position: absolute;
+  top: 37px;
+  left: 490px;
+
+  font-family: Helvetica;
+  font-size: 23px;
+  font-weight: bold;
+  letter-spacing: normal;
+  color: #ffffff;
+
+  text-align: center;
+  padding: 25pt;
+}
+
+.contact:hover {
+  background-color: #3C7FB5;
+}
+
+.about_popup {
+  position: absolute;
+  top: 105px;
+  left: 235px;
+  width: 1200px;
+  height: 750px;
+  background-color: #ffffff;
+  border: 3px solid black;
+  font-size: 30px;
+  padding-top: 40px;
+  padding-left: 40px;
+}
+
+#about_x {
+  position: absolute;
+  top: 690px;
+  left: 1140px;
+
+  z-index: 2;
+}
+
+.contact_popup {
+  position: absolute;
+  top: 105px;
+  left: 235px;
+  width: 1200px;
+  height: 750px;
+  background-color: #ffffff;
+  border: 3px solid black;
+  font-size: 30px;
+  padding-top: 40px;
+  padding-left: 40px;
+}
+
+#contact_x {
+  position: absolute;
+  top: 690px;
+  left: 1140px;
+
+  z-index: 2;
+}
